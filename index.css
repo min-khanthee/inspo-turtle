@@ -1,0 +1,27 @@
+body {
+  background: #000046;
+  background: -webkit-linear-gradient(to right, #1cb5e0, #000046); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1cb5e0, #000046);
+
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h1 {
+  color: rgb(253, 242, 242);
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 30px;
+  background-color: rgba(0, 255, 30, 0.805);
+  border: 5px solid rgb(253, 242, 242);
+  cursor: pointer;
+  font-size: 15px;
+}
