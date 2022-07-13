@@ -3,6 +3,7 @@ document.getElementById('get-activity').addEventListener('click', () => {
     .then((response) => response.json())
     .then((data) => {
       console.log(data)
-      document.getElementById('activity').textContent = data.activity
+      document.getElementById('activity').textContent = data.activity + ' 🥳'
+      document.body.classList.add('fun')
     })
 })
